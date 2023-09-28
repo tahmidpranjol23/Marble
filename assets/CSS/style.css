@@ -1,0 +1,138 @@
+/* root css start */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+}
+ul, li,a{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+:root {
+    --color1: #4e4e4e;
+    --color2: #1c1c1c;
+    --colorul: #1abb9c;
+    --colorbtn: #3f8dbf;
+    --slab: 'Roboto Slab';
+    --roboto: 'Roboto';
+    --Condensed: 'Roboto Condensed';
+}
+
+/* root css end */
+
+/* navbar */
+.nav-link{
+    font-family: var(--Condensed);
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: var(--colorul);
+}
+/* home */
+#home{
+    background: url(../img/Layer\ 1.png) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.home-con-main h3{
+    font-family: var(--slab);
+    font-size: 40px;
+}
+.home-con-main h5{
+    font-family: var(--slab);
+    font-size: 32px;
+    color: #a8a8a8;
+    padding: 30px 0;
+}
+.btn-home{
+    background-color: var(--colorbtn);
+    color: #FFFF;
+    border-radius: 0%;
+    box-shadow: rgba(50, 117, 158) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+.btn-home:hover{
+    background-color: var(--colorbtn);
+    color: #FFFF;
+    border-radius: 0%;
+    box-shadow: 0 0 15px 4px, rgb(50, 117, 158);
+}
+/* service */
+.service-con p{
+    font-size: 14px;
+    color: #616161;
+}
+.service-con h5{
+    color: #4e4e4e;
+    font-size: 18px;
+}
+/* latest work */
+.latest-head h6{
+    font-size: 18px;
+    font-family: var(--Condensed);
+}
+.latest-con h6{
+    font-family: var(--slab);
+    font-size: 18px;
+    color: var(--color1);
+}
+.latest-con p{
+    font-family: var(--roboto);
+    color: #5c5c5c;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+/* testi */
+#testimonial{
+    background-color: #efefef;
+}
+.testi-con-main h1{
+    font-family: 'Arial Rounded MT Bold';
+    padding-top: 50px;
+    padding-bottom: 0px;
+    color: #dcdcdc;
+    font-size: 100px;
+    text-align: center;
+}
+.testi-con-main p{
+    font-family: var(--slab);
+    color: #a1a1a1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 65px;
+}
+/* footer */
+.footer{
+    background: url(../img/Footer\ Bg.png) no-repeat center;
+    background-size: cover;
+    padding: 50px;
+    color: #6c6c6c;
+}
+.part1 h5{
+    font-family: var(--Condensed);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.part1 p{
+    color: #cacaca;
+    font-family: var(--roboto);
+    font-size: 14px;
+}
+.copy p{
+    font-size: 14px;
+    font-family: var(--roboto);
+    color: #cacaca;
+}
